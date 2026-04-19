@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { POSTERS } from '../data/portfolio';
+import { POSTERS } from '../../data/portfolio';
 import PosterCard from './PosterCard';
 import SectionModal from './SectionModal';
-import type { PosterConfig } from '../data/portfolio';
+import type { PosterConfig } from '../../data/portfolio';
 
 export default function PosterWall() {
   const [activeSection, setActiveSection] = useState<PosterConfig | null>(null);

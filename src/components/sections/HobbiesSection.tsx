@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowUpRight, Film, PenTool } from 'lucide-react';
-import { PERSONAL, FAVORITE_FILMS } from '../data/portfolio';
+import { PERSONAL, FAVORITE_FILMS } from '../../data/portfolio';
 
 const hobbies = [
   {

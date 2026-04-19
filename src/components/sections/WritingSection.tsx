@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Camera, ArrowUpRight } from 'lucide-react';
-import { WRITING_SNIPPETS, PERSONAL } from '../data/portfolio';
+import { WRITING_SNIPPETS, PERSONAL } from '../../data/portfolio';
 
 export default function WritingSection() {
   return (

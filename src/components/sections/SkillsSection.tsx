@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { SKILLS } from '../data/portfolio';
+import { SKILLS } from '../../data/portfolio';
 
 export default function SkillsSection() {
   // Flatten all skills into one array

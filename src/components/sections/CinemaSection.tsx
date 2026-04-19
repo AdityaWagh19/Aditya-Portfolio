@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Film, ArrowUpRight } from 'lucide-react';
-import { FAVORITE_FILMS, PERSONAL } from '../data/portfolio';
+import { FAVORITE_FILMS, PERSONAL } from '../../data/portfolio';
 
 export default function CinemaSection() {
   return (

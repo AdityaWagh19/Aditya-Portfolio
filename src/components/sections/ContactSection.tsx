@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Mail, ArrowUpRight, Link2, GitBranch, Code2 } from 'lucide-react';
-import { PERSONAL } from '../data/portfolio';
+import { PERSONAL } from '../../data/portfolio';
 
 const socials = [
   { label: 'Email', value: PERSONAL.email, href: `mailto:${PERSONAL.email}`, icon: Mail },

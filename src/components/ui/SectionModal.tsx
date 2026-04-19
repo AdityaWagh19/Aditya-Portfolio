@@ -1,14 +1,14 @@
 import { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
-import type { PosterConfig } from '../data/portfolio';
+import type { PosterConfig } from '../../data/portfolio';
 
-import ProjectsSection from './ProjectsSection';
-import SkillsSection from './SkillsSection';
-import BackgroundSection from './BackgroundSection';
-import WritingSection from './WritingSection';
-import CinemaSection from './CinemaSection';
-import ContactSection from './ContactSection';
+import ProjectsSection from '../sections/ProjectsSection';
+import SkillsSection from '../sections/SkillsSection';
+import BackgroundSection from '../sections/BackgroundSection';
+import WritingSection from '../sections/WritingSection';
+import CinemaSection from '../sections/CinemaSection';
+import ContactSection from '../sections/ContactSection';
 
 const SECTION_MAP: Record<string, React.ComponentType> = {
   projects: ProjectsSection,

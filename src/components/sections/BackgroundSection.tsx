@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { TIMELINE, ACCOLADES } from '../data/portfolio';
+import { TIMELINE, ACCOLADES } from '../../data/portfolio';
 
 
 

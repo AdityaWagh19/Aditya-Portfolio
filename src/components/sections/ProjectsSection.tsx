@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { ExternalLink, Star } from 'lucide-react';
 import { GitBranch } from 'lucide-react';
-import { PROJECTS } from '../data/portfolio';
+import { PROJECTS } from '../../data/portfolio';
 
 export default function ProjectsSection() {
   return (

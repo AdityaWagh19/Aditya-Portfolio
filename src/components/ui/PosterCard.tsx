@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ChevronRight } from 'lucide-react';
-import type { PosterConfig } from '../data/portfolio';
+import type { PosterConfig } from '../../data/portfolio';
 
 // Cinematic SVG backgrounds per poster type
 const PosterVisual = ({ id, gradient }: { id: string; gradient: string }) => {
