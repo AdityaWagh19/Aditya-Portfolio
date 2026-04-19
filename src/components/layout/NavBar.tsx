@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Download } from 'lucide-react';
-import { PERSONAL } from '../data/portfolio';
+import { PERSONAL } from '../../data/portfolio';
 
 export default function NavBar() {
   const [scrolled, setScrolled] = useState(false);
