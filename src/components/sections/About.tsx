@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import aboutDoodle from '../../assets/about_doodle.png';
 
 const reveal = {
   hidden: { opacity: 0, y: 40 },
@@ -34,9 +35,9 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
           >
-            <div className="about-photo" style={{ overflow: 'hidden', background: 'white' }}>
+            <div className="about-photo" style={{ overflow: 'hidden', background: 'var(--surface)' }}>
               <img 
-                src="/about_doodle_color_final.png" 
+                src={aboutDoodle} 
                 alt="Aditya with cats colored doodle" 
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />

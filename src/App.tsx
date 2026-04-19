@@ -1,16 +1,16 @@
 import { useLenis } from './hooks/useLenis';
-import NavBar from './components/NavBar';
-import Hero from './components/Hero';
-import About from './components/About';
-import ProjectsSection from './components/ProjectsSection';
-import SkillsSection from './components/SkillsSection';
-import BackgroundSection from './components/BackgroundSection';
-import HobbiesSection from './components/HobbiesSection';
-import ContactSection from './components/ContactSection';
+import NavBar from './components/layout/NavBar';
+import Hero from './components/sections/Hero';
+import About from './components/sections/About';
+import ProjectsSection from './components/sections/ProjectsSection';
+import SkillsSection from './components/sections/SkillsSection';
+import BackgroundSection from './components/sections/BackgroundSection';
+import HobbiesSection from './components/sections/HobbiesSection';
+import ContactSection from './components/sections/ContactSection';
 import { Download, ArrowUp } from 'lucide-react';
 import { PERSONAL } from './data/portfolio';
 
-import DynamicBackground from './components/DynamicBackground';
+import DynamicBackground from './components/layout/DynamicBackground';
 
 function App() {
   useLenis();
